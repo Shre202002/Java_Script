@@ -1,0 +1,29 @@
+conditional operator Exercise
+
+1-> Write a js program to find maximum between two numbers using conditional operator.
+2-> Write a js program to find maximum between three numbers using conditional operator.
+3-> Write a js program to check whether a number is even or odd using conditional operator.
+4-> Write a js program to check whether year is leap year or not using conditional operator.
+
+
+if else condition Exercise
+
+1-> Write a js program to find maximum between two numbers.
+2-> Write a js program to find maximum between three numbers.
+3-> Write a js program to check whether a number is negative, positive or zero.
+4-> Write a js program to check whether a number is divisible by 5 and 11 or not.
+5-> Write a js program to input any alphabet and check whether it is vowel or consonant.
+
+
+loops Exercise
+
+1-> Write a JS program to print all natural numbers in reverse (from n to 1).
+2-> Write a JS program to print all even numbers between 1 to 100.
+3-> Write a JS program to print all odd number between 1 to 100.
+4-> Write a JS program to find sum of all natural numbers between 1 to n.
+5-> Write a JS program to find sum of all even numbers between 1 to n.
+6-> Write a JS program to find sum of all odd numbers between 1 to n.
+7-> Write a JS program to print multiplication table of any number.
+8-> Write a JS program to count number of digits in a number.
+9-> Write a JS program to find first and last digit of a number.
+10-> Write a JS program to find sum of first and last digit of a number.
