@@ -60,7 +60,9 @@ console.log(box2)
 
 
 
-/*****************************Quary Seletor ***************************** */
+/******************************************************  Quary Seletor ********************************************* */
+
+
  let element = document.querySelector(".box")
  let element1 = document.querySelectorAll(".box")
 console.log(element)
