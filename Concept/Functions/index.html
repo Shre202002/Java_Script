@@ -8,7 +8,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <body>        
-        <script src="./Function_01.js" async defer></script>
+    <style>
+        *{
+            list-style: none;
+        }
+        body{
+            background-color: black;
+            color: greenyellow;
+        }
+        button{
+            cursor: pointer;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: 2px solid rebeccapurple;
+            border-radius: 20px;
+        }
+    </style>
+    <body>
+        <h2>Student Name And Subjects</h2>
+        <button class="btn">Click To Load </button>        
+        <button class="add">Click To add new content </button>        
+        <button class="rem">Click To remove Content  </button>        
+        <button class="rem_elem">Click To See removed Content  </button>        
+        <button class="add_rem_elem">Click To Add removed Content  </button>        
+        <h2 class="note"></h2>
+        <ul id="list">
+         
+        </ul>
+        
+        <!-- <script src="./Function_01.js" async defer></script> -->
+        <!-- <script src="./Callback.js" async defer></script> -->
+        <script src="./ForEach.js" async defer></script>
     </body>
 </html>
