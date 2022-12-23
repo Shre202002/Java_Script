@@ -1,0 +1,41 @@
+<script>
+
+    /*
+    
+    
+        let lan = ['c', 'c++', 'java', 'javascript', 'python'];
+        let [l1,,,, ll] = lan;
+        console.log(`The third element of array is: ${ll}`)
+    //Destructure STRING ARRAY
+    let friend = ['raja', 'raju', 'bablu','pankaj','jaggu']
+    let[bff,,bff2] = friend;
+    console.log(`${bff}`)  
+    */
+
+
+    // Day - 2 Object Destructuring....!!!!!!
+
+
+    let bio_data = {
+        name: 'shre',
+        age: '69',
+        deg: 'BCA',
+        hobby: {
+            h1: 'gaming',
+            h2: 'teaching'
+        },
+        marks: [89, 25, 65, 69, 96],
+    }
+    let { name, age, deg: d } = bio_data
+    let str = bio_data.name;
+    let ag = bio_data.age;
+    let hob = bio_data.hobby.h2;
+    let mar = bio_data.marks[3];
+    console.log(str)
+    console.log(ag)
+    console.log(hob)
+    console.log(mar)
+    let {name: N,  marks:M, hobby} = bio_data;
+    console.log(`my name is ${N} amd ${M[2]} and hobby is ${hobby.h1}`);
+    //console.log(`y name is ${name} and my a ge is ${age} and I had complected degree ${d}`)
+</script>
