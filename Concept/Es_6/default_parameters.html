@@ -1,0 +1,18 @@
+<script>
+    function add(a, b=13) {
+        console.log(a * b)
+    }
+    add( 2, 2)
+    add( 2) 
+    // Default value of b is taken in the function3 
+
+const grt = (a = 10,b = 20,c= 30) => {
+    if((a>b)&&(a>c)) {console.log(`${a} is greatest number among${b} and ${c} `)}
+    if((b>c)&&(b>a)) {console.log(`${b} is greatest number among${c} and ${a} `);}
+    if((c>b)&&(c>a)) {console.log(`${c} is greatest number among${b} and ${a} `);}
+};
+
+grt(1,2,3)
+grt();
+
+</script>
